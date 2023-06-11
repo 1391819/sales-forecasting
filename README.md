@@ -2,15 +2,11 @@
   <img src="imgs/logo-light-nobg.png" alt="logo" width="128"/>
   <h1>Sales forecasting</h1>
 
-[Kaggle Notebook](https://www.kaggle.com/code/robertonacu/sales-forecasting)
-
 </div>
 
 <div align="justify">
 
-## About
-
-Sales prediction and data enrichment using Catboost and Upgini. The task is to forecast the future sales of products for the next 3 months and determine whether enriching our data leads to an increase in our model's accuracy.
+This project focuses on sales prediction and data enrichment using the Catboost algorithm and Upgini. The goal is to forecast future sales for the next 3 months and determine whether enriching the data leads to an increase in model accuracy.
 
 ## Stack
 
