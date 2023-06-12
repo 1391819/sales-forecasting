@@ -10,15 +10,15 @@ This project focuses on sales prediction and data enrichment using the Catboost 
 
 ## Roadmap
 
-- [x]  Research Catboost and Upgini
-- [x]  Obtain dataset
-- [x]  Basic exploratory data analysis
-- [x]  Implement and train Catboost model
-- [x]  Assess model’s performance (SMAPE metric)
-- [x]  Enhance dataset using Upgini
-- [x]  Retrain the Catboost model
-- [x]  Compare SMAPE values before and after data enrichment
-- [x]  Summarise findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
+- [x] Research Catboost and Upgini
+- [x] Obtain dataset
+- [x] Perform basic exploratory data analysis
+- [x] Implement and train Catboost model
+- [x] Assess model's performance using SMAPE metric
+- [x] Enhance dataset using Upgini
+- [x] Retrain the Catboost model
+- [x] Compare SMAPE values before and after data enrichment
+- [x] Summarize findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
 
 
 ## Stack
