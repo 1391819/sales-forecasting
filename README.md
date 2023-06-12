@@ -18,7 +18,7 @@ This project focuses on sales prediction and data enrichment using the Catboost 
 - [x] Enhance dataset using Upgini
 - [x] Retrain the Catboost model
 - [x] Compare SMAPE values before and after data enrichment
-- [x] Summarize findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
+- [x] Summarise findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
 
 
 ## Stack
@@ -46,7 +46,7 @@ The initial step involves conducting some really basic exploratory data analysis
 
 ### Model creation using the Catboost algorithm:
 
-Once the data has been briefly analyzed, the Catboost algorithm will be applied to build a time series forecasting model. Catboost is a gradient-boosting algorithm that handles categorical features effectively and has shown promising performance in various domains. The model will then be trained on our sales data, considering relevant features identified during the exploratory data analysis.
+Once the data has been briefly analysed, the Catboost algorithm will be applied to build a time series forecasting model. Catboost is a gradient-boosting algorithm that handles categorical features effectively and has shown promising performance in various domains. The model will then be trained on our sales data, considering relevant features identified during the exploratory data analysis.
 
 ### Data Enrichment with Upgini:
 
@@ -61,7 +61,7 @@ The evaluation of the developed model will primarily be based on the SMAPE metri
 
 To assess whether our enrichment process led to significant results, we employed the Symmetric Mean Absolute Percentage Error (SMAPE) metric, which measures the accuracy of our predictions compared to the actual values. Initially, our baseline model yielded a SMAPE value of 37%.
 
-However, by employing Upgini, we were able to prioritize uncertain and informative data points during training. This technique played a crucial role in identifying and assigning higher weights to data instances that were previously underrepresented, leading to a more accurate prediction model and a lower SMAPE value of 14%.
+However, by employing Upgini, we were able to prioritise uncertain and informative data points during training. This technique played a crucial role in identifying and assigning higher weights to data instances that were previously underrepresented, leading to a more accurate prediction model and a lower SMAPE value of 14%.
 
 Overall, by incorporating Upgini to enrich our data and retraining the CatBoostRegressor model, we successfully achieved a significant reduction in the SMAPE value. This outcome underscores the effectiveness of Upgini in enhancing the model's accuracy and reaffirms the value of CatBoostRegressor as a robust algorithm for regression tasks.
 
