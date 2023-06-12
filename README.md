@@ -12,7 +12,7 @@ This project focuses on sales prediction and data enrichment using the Catboost 
 
 - [x] Research Catboost and Upgini
 - [x] Obtain dataset
-- [x] Perform basic exploratory data analysis
+- [x] Perform basic exploratory data analysis (EDA)
 - [x] Implement and train Catboost model
 - [x] Assess model's performance using SMAPE metric
 - [x] Enhance dataset using Upgini
