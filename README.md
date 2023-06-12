@@ -10,13 +10,15 @@ This project focuses on sales prediction and data enrichment using the Catboost 
 
 ## Roadmap
 
-- [x] Perform basic exploratory data analysis to gain insights into the sales data
-- [x] Apply the Catboost algorithm for time series forecasting, considering relevant features identified during EDA
-- [x] Enhance the dataset using Upgini to assign higher weights to uncertain and informative data points
-- [x] Use the enriched dataset to retrain the Catboost model and generate more accurate sales forecasts
-- [x] Assess the model's performance using the Symmetric Mean Absolute Percentage Error (SMAPE) metric
-- [x] Compare the SMAPE values before and after data enrichment to evaluate the impact of Upgini
-- [x] Summarize the findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
+- [x]  Research Catboost and Upgini
+- [x]  Obtain dataset
+- [x]  Basic exploratory data analysis
+- [x]  Implement and train Catboost model
+- [x]  Assess model’s performance (SMAPE metric)
+- [x]  Enhance dataset using Upgini
+- [x]  Retrain the Catboost model
+- [x]  Compare SMAPE values before and after data enrichment
+- [x]  Summarise findings and highlight the effectiveness of Upgini in improving the accuracy of the Catboost model
 
 
 ## Stack
