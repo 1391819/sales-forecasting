@@ -30,11 +30,11 @@ This project focuses on sales prediction and data enrichment using the Catboost 
 ## Data Overview
 
 - Tabular data
-- 5 years' worth of product sales
+- 5 years' worth of product sales (19k samples)
 - 4 features:
   - date, store_id, item_id, and sales
-- Sales data before 2017 will be used as training data, while everything older than 2017 will be our test data
-- limited information (i.e., only date and sales are useful) for our model to understand how to successfully predict future sales
+- Sales data before 2017 will be used as training data (15213 samples), while everything older than 2017 will be our test data (3787 samples)
+- Limited information (i.e., only date and sales are useful) for our model to understand how to successfully predict future sales
 
 ## Methodology
 
